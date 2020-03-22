@@ -7,6 +7,6 @@ It contains different steps to convert a web application
 The web application was initially developed in using MySQL as a back end
 The new version will use DynamoDB
 
-# Project's Folder
+# Project's Folders
 ## 01_Table_Creation 
 It contains different ways to create the PetInventory Table
