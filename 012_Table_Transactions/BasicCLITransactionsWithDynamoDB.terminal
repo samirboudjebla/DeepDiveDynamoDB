@@ -1,0 +1,30 @@
+# scan when using a reserved name in the table attribut (eg name). 
+# we need to replace it with an expression attribute name such as #n
+
+aws dynamodb scan --table-name artist \
+    --filter-expression "#n = :name" \
+    --expression-attribute-values '{":name":{"S":"Dream Theater"}}' \
+    --expression-attribute-names '{"#n":"name"}'
+
+
+
+# Strongly consistent reads/scans
+
+aws dynamodb scan --table-name artist \
+    --filter-expression "#n = :name" \
+    --expression-attribute-values '{":name":{"S":"Dream Theater"}}' \
+    --expression-attribute-names '{"#n":"name"}' \
+    --consistent-read
+
+
+# pagination 
+
+aws dynamodb scan --table-name artist --page-size 10 --debug
+
+
+
+# Query 
+aws dynamodb query \
+    --table-name artist \
+    --key-condition-expression "id = :id" \
+    --expression-attribute-values  '{":id":{"N":"154555"}}'
