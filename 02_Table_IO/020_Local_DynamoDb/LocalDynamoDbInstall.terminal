@@ -1,0 +1,40 @@
+# Running dynamoDb with Java 
+
+##update instance
+sudo sum update -y
+
+## install java
+sudo yum install java-1.8.0
+## check that java os installed
+java -version
+
+
+## download dynamodb local file (check your region)
+## check the procedure at https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html
+wget https://s3-us-west-2.amazonaws.com/dynamodb-local/dynamodb_local_latest.zip
+unizip dynamodb_local_latest.zip
+
+
+## start the dynamodb on your local computer
+java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
+
+
+## configure your aws access key
+## you can use real keys (if you want the install to access AWS) 
+## or fake keys (if you don't want the instance to access aws)
+
+## check your installation by using thie request
+aws dynamodb list-tables --endpoint-url http://localhost:8000
+
+
+# running dynamo with docker
+docker r un - d - p 8000: 8000 amazon/ dynamodb- local
+
+
+
+
+
+
+
+
+

@@ -21,21 +21,27 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="011_Backoff_Algorythms\backoff.py" />
-    <Compile Include="011_Backoff_Algorythms\retryhandler.py" />
-    <Compile Include="012_Table_Transactions\BatchOperationsDynamoDB.py" />
+    <Compile Include="02_Table_IO\020_Local_DynamoDb\localdynamodb.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="02_Table_IO\021_Backoff_Algorythms\backoff.py" />
+    <Compile Include="02_Table_IO\021_Backoff_Algorythms\retryhandler.py" />
+    <Compile Include="02_Table_IO\022_Table_Transactions\BatchOperationsDynamoDB.py" />
     <Compile Include="01_Table_Creation\PetInventoryDynamoDB_Boto3.py" />
     <Compile Include="DeepDiveDynamoDB.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="011_Backoff_Algorythms\" />
-    <Folder Include="012_Table_Transactions\" />
+    <Folder Include="02_Table_IO\021_Backoff_Algorythms\" />
+    <Folder Include="02_Table_IO\022_Table_Transactions\" />
     <Folder Include="01_Table_Creation\" />
+    <Folder Include="02_Table_IO\" />
+    <Folder Include="02_Table_IO\020_Local_DynamoDb\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitattributes" />
     <Content Include=".gitignore" />
-    <Content Include="012_Table_Transactions\BasicCLITransactionsWithDynamoDB.terminal" />
+    <Content Include="02_Table_IO\020_Local_DynamoDb\LocalDynamoDbInstall.terminal" />
+    <Content Include="02_Table_IO\022_Table_Transactions\BasicCLITransactionsWithDynamoDB.terminal" />
     <Content Include="01_Table_Creation\PetInventoryDynamoDB.terminal" />
     <Content Include="01_Table_Creation\PetInventoryDynamoDB_CloudFormation.template" />
     <Content Include="README.md" />
