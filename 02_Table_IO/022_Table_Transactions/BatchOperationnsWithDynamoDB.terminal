@@ -1,2 +1,7 @@
 # BactchGetItem
 aws dynamodb batch-get-item --request-items file://get.json
+
+
+# BatchWriteItem
+## the json structure file is different than the get.json one
+aws dynamodb batch-write-item --reuest-items file://write.json

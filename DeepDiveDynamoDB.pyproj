@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>91099a39-10da-46c8-bfdd-152036485ee0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DeepDiveDynamoDB.py</StartupFile>
+    <StartupFile>deepdivedynamodb.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,7 +28,7 @@
     <Compile Include="02_Table_IO\021_Backoff_Algorythms\retryhandler.py" />
     <Compile Include="02_Table_IO\022_Table_Transactions\batchoperationsdynamodb.py" />
     <Compile Include="01_Table_Creation\petInventorydynamodbboto3.py" />
-    <Compile Include="DeepDiveDynamoDB.py" />
+    <Compile Include="deepdivedynamodb.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="02_Table_IO\021_Backoff_Algorythms\" />
@@ -45,6 +45,7 @@
     <Content Include="02_Table_IO\022_Table_Transactions\BasicCLITransactionsWithDynamoDB.terminal" />
     <Content Include="01_Table_Creation\PetInventoryDynamoDB.terminal" />
     <Content Include="01_Table_Creation\PetInventoryDynamoDB_CloudFormation.template" />
+    <Content Include="02_Table_IO\022_Table_Transactions\write.json" />
     <Content Include="02_Table_IO\022_Table_Transactions\get.json" />
     <Content Include="README.md" />
   </ItemGroup>

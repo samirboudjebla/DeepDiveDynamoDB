@@ -1,10 +1,11 @@
 # DeepDiveDynamoDB
 
 The repository is used to implement a linux academy training to deep dive into dynamodb
-It contains different steps to convert a web application 
+
+It contains different steps to convert an existing web application 
 
 
-The web application was initially developed in using MySQL as a back end
+The web application was initially developed using MySQL as a back end
 The new version will use DynamoDB
 
 # Project's Folders
