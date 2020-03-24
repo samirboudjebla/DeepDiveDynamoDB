@@ -1,0 +1,2 @@
+# BactchGetItem
+aws dynamodb batch-get-item --request-items file://get.json
