@@ -1,0 +1,188 @@
+{
+  "PetInventory": [
+	{
+		"PutRequest": {
+			"Item": {
+				"age": {
+					"N": "2"
+				},
+				"color": {
+					"S": "Stone"
+				},
+				"fur_type": {
+					"S": "Soft"
+				},
+				"gender": {
+					"S": "Male"
+				},
+				"name": {
+					"S": "Shadam"
+				},
+				"pet_id": {
+					"N": "631"
+				},
+				"pet_species": {
+					"S": "Chinchilla"
+				},
+				"pet_availability": {
+					"BOOL": true
+				}
+			}
+		}
+	},
+	{
+		"PutRequest": {
+			"Item": {
+				"age": {
+					"N": "3"
+				},
+				"color": {
+					"S": "Basil"
+				},
+				"gender": {
+					"S": "Male"
+				},
+				"name": {
+					"S": "Paul"
+				},
+				"pet_id": {
+					"N": "159"
+				},
+				"pet_species": {
+					"S": "Iguana"
+				},
+				"scale_texture": {
+					"S": "Rough"
+				},
+				"pet_availability": {
+					"BOOL": true
+				}
+			}
+		}
+	},
+	{	
+		"PutRequest": {
+			"Item": {
+				"age": {
+					"N": "10"
+				},
+				"color": {
+					"S": "Seaweed"
+				},
+				"gender": {
+					"S": "Female"
+				},
+				"name": {
+					"S": "Jessica"
+				},
+				"pet_id": {
+					"N": "146"
+				},
+				"pet_species": {
+					"S": "Iguana"
+				},
+				"scale_texture": {
+					"S": "Rough"
+				},
+				"pet_availability": {
+					"BOOL": true
+				}
+			}
+		}
+	},
+	{	
+		"PutRequest": {
+			"Item": {
+				"pet_species": {
+					"S": "Chinchilla"
+				},
+				"pet_id": {
+					"N": "805"
+				},
+				"name": {
+					"S": "Irulan"
+				},
+				"color": {
+					"S": "Snow"
+				},
+				"age": {
+					"N": "1"
+				},
+				"gender": {
+					"S": "Female"
+				},
+				"fur_type": {
+					"S": "Soft"
+				},
+				"pet_availability": {
+					"BOOL": true
+				}
+			}
+		}
+	},
+	{
+		"PutRequest": {
+			"Item": {
+				"pet_species": {
+					"S": "Red-tailed Boa"
+				},
+				"pet_id": {
+					"N": "3"
+				},
+				"name": {
+					"S": "Vladimir"
+				},
+				"color": {
+					"S": "Abalone/Brick"
+				},
+				"age": {
+					"N": "18"
+				},
+				"gender": {
+					"S": "Male"
+				},
+				"scale_texture": {
+					"S": "Smooth"
+				},
+				"pet_availability": {
+					"BOOL": true
+				}
+			}
+		}
+	},
+	{
+		"PutRequest": {
+			"Item": {
+				"pet_species": {
+					"S": "Red-tailed Boa"
+				},
+				"pet_id": {
+					"N": "9"
+				},
+				"name": {
+					"S": "Feyd-Rautha"
+				},
+				"color": {
+					"S": "Ash/Caramel"
+				},
+				"age": {
+					"N": "8"
+				},
+				"gender": {
+					"S": "Male"
+				},
+				"scale_texture": {
+					"S": "Smooth"
+				},
+				"pet_availability": {
+					"BOOL": false
+				}
+			}
+		}
+	}
+  ]
+}
+
+
+
+

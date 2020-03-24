@@ -28,6 +28,9 @@
     <Compile Include="02_Table_IO\021_Backoff_Algorythms\retryhandler.py" />
     <Compile Include="02_Table_IO\022_Table_Transactions\batchoperationsdynamodb.py" />
     <Compile Include="01_Table_Creation\petInventorydynamodbboto3.py" />
+    <Compile Include="02_Table_IO\023_Lab_Table_IO\batchupdate.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="deepdivedynamodb.py" />
   </ItemGroup>
   <ItemGroup>
@@ -36,6 +39,7 @@
     <Folder Include="01_Table_Creation\" />
     <Folder Include="02_Table_IO\" />
     <Folder Include="02_Table_IO\020_Local_DynamoDb\" />
+    <Folder Include="02_Table_IO\023_Lab_Table_IO\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitattributes" />
@@ -47,6 +51,9 @@
     <Content Include="01_Table_Creation\PetInventoryDynamoDB_CloudFormation.template" />
     <Content Include="02_Table_IO\022_Table_Transactions\write.json" />
     <Content Include="02_Table_IO\022_Table_Transactions\get.json" />
+    <Content Include="02_Table_IO\023_Lab_Table_IO\BatchOperationnsWithDynamoDB.terminal" />
+    <Content Include="02_Table_IO\023_Lab_Table_IO\update.json" />
+    <Content Include="02_Table_IO\023_Lab_Table_IO\write.json" />
     <Content Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

@@ -15,4 +15,4 @@ It contains different ways to create the PetInventory Table
 ## 02_Table_IO 
 it contains the different operations we can do on a dynamodb table
 it also shows how to install dynamodb locally for quick prototyping
-
+finally it contains the implmentation of the second lab
