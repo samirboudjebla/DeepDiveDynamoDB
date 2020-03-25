@@ -49,6 +49,13 @@
     <Compile Include="06_Backups\petinventorystrap.py" />
     <Compile Include="07_Data_Consistency\071_CondionalWrites_AtoimcCounters\atomic.py" />
     <Compile Include="07_Data_Consistency\071_CondionalWrites_AtoimcCounters\update.py" />
+    <Compile Include="07_Data_Consistency\072_Transactions\txn.py" />
+    <Compile Include="07_Data_Consistency\073_TTL\ttl.py" />
+    <Compile Include="08_Streams\081_Streams_Lambda_SES\create_table.py" />
+    <Compile Include="08_Streams\081_Streams_Lambda_SES\lambda_function.py" />
+    <Compile Include="08_Streams\081_Streams_Lambda_SES\order.py" />
+    <Compile Include="08_Streams\082_Streams_Lab\metricprocessor.py" />
+    <Compile Include="08_Streams\082_Streams_Lab\randomgame.py" />
     <Compile Include="deepdivedynamodb.py" />
   </ItemGroup>
   <ItemGroup>
@@ -75,6 +82,12 @@
     <Folder Include="06_Backups\" />
     <Folder Include="07_Data_Consistency\" />
     <Folder Include="07_Data_Consistency\071_CondionalWrites_AtoimcCounters\" />
+    <Folder Include="07_Data_Consistency\072_Transactions\" />
+    <Folder Include="07_Data_Consistency\073_TTL\" />
+    <Folder Include="07_Data_Consistency\074_Lab_Migration_Data\" />
+    <Folder Include="08_Streams\" />
+    <Folder Include="08_Streams\081_Streams_Lambda_SES\" />
+    <Folder Include="08_Streams\082_Streams_Lab\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitattributes" />
@@ -126,6 +139,8 @@
     <Content Include="05_Indexes\053_Indexes_Lab\album_indexed.csv" />
     <Content Include="05_Indexes\053_Indexes_Lab\etl.sql" />
     <Content Include="06_Backups\PetInventory.csv" />
+    <Content Include="07_Data_Consistency\074_Lab_Migration_Data\rules.json" />
+    <Content Include="08_Streams\081_Streams_Lambda_SES\README.md" />
     <Content Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
