@@ -47,6 +47,8 @@
     <Compile Include="05_Indexes\053_Indexes_Lab\util\batchupdate.py" />
     <Compile Include="05_Indexes\053_Indexes_Lab\util\csvconverter.py" />
     <Compile Include="06_Backups\petinventorystrap.py" />
+    <Compile Include="07_Data_Consistency\071_CondionalWrites_AtoimcCounters\atomic.py" />
+    <Compile Include="07_Data_Consistency\071_CondionalWrites_AtoimcCounters\update.py" />
     <Compile Include="deepdivedynamodb.py" />
   </ItemGroup>
   <ItemGroup>
@@ -71,6 +73,8 @@
     <Folder Include="05_Indexes\053_Indexes_Lab\" />
     <Folder Include="05_Indexes\053_Indexes_Lab\util\" />
     <Folder Include="06_Backups\" />
+    <Folder Include="07_Data_Consistency\" />
+    <Folder Include="07_Data_Consistency\071_CondionalWrites_AtoimcCounters\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitattributes" />
