@@ -46,6 +46,7 @@
     <Compile Include="05_Indexes\053_Indexes_Lab\pineheadrecords_query.py" />
     <Compile Include="05_Indexes\053_Indexes_Lab\util\batchupdate.py" />
     <Compile Include="05_Indexes\053_Indexes_Lab\util\csvconverter.py" />
+    <Compile Include="06_Backups\petinventorystrap.py" />
     <Compile Include="deepdivedynamodb.py" />
   </ItemGroup>
   <ItemGroup>
@@ -69,6 +70,7 @@
     <Folder Include="05_Indexes\052_Indexes_Advanced\" />
     <Folder Include="05_Indexes\053_Indexes_Lab\" />
     <Folder Include="05_Indexes\053_Indexes_Lab\util\" />
+    <Folder Include="06_Backups\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitattributes" />
@@ -119,6 +121,7 @@
     <Content Include="05_Indexes\052_Indexes_Advanced\README.md" />
     <Content Include="05_Indexes\053_Indexes_Lab\album_indexed.csv" />
     <Content Include="05_Indexes\053_Indexes_Lab\etl.sql" />
+    <Content Include="06_Backups\PetInventory.csv" />
     <Content Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
