@@ -38,6 +38,14 @@
     <Compile Include="04_Web_Version_1\webapp-v0\webapp\models.py" />
     <Compile Include="04_Web_Version_1\webapp-v0\webapp\routes.py" />
     <Compile Include="04_Web_Version_1\webapp-v0\webapp\__init__.py" />
+    <Compile Include="05_Indexes\051_Indexes_Introduction\load.py" />
+    <Compile Include="05_Indexes\052_Indexes_Advanced\create-indexes.py" />
+    <Compile Include="05_Indexes\052_Indexes_Advanced\projection.py" />
+    <Compile Include="05_Indexes\052_Indexes_Advanced\sparse.py" />
+    <Compile Include="05_Indexes\053_Indexes_Lab\index_table_load.py" />
+    <Compile Include="05_Indexes\053_Indexes_Lab\pineheadrecords_query.py" />
+    <Compile Include="05_Indexes\053_Indexes_Lab\util\batchupdate.py" />
+    <Compile Include="05_Indexes\053_Indexes_Lab\util\csvconverter.py" />
     <Compile Include="deepdivedynamodb.py" />
   </ItemGroup>
   <ItemGroup>
@@ -56,6 +64,11 @@
     <Folder Include="04_Web_Version_1\webapp-v0\webapp\static\img\" />
     <Folder Include="04_Web_Version_1\webapp-v0\webapp\static\js\" />
     <Folder Include="04_Web_Version_1\webapp-v0\webapp\templates\" />
+    <Folder Include="05_Indexes\" />
+    <Folder Include="05_Indexes\051_Indexes_Introduction\" />
+    <Folder Include="05_Indexes\052_Indexes_Advanced\" />
+    <Folder Include="05_Indexes\053_Indexes_Lab\" />
+    <Folder Include="05_Indexes\053_Indexes_Lab\util\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitattributes" />
@@ -100,6 +113,12 @@
     <Content Include="04_Web_Version_1\webapp-v0\webapp\templates\results.html" />
     <Content Include="04_Web_Version_1\webapp-v0\webapp\templates\search.html" />
     <Content Include="04_Web_Version_1\webapp-v0\webapp\templates\track.html" />
+    <Content Include="05_Indexes\051_Indexes_Introduction\album_indexed.csv.gz" />
+    <Content Include="05_Indexes\051_Indexes_Introduction\data_load.sh" />
+    <Content Include="05_Indexes\051_Indexes_Introduction\create_table.sh" />
+    <Content Include="05_Indexes\052_Indexes_Advanced\README.md" />
+    <Content Include="05_Indexes\053_Indexes_Lab\album_indexed.csv" />
+    <Content Include="05_Indexes\053_Indexes_Lab\etl.sql" />
     <Content Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
