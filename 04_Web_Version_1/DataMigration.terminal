@@ -1,0 +1,9 @@
+sudo yum install python3
+
+pip3 install --user boto3 pymysql
+
+
+# Set region and optionally set access keys (if not using an IAM role on the EC2 instance)
+aws configure
+
+curl https://raw.githubusercontent.com/linuxacademy/content-dynamodb-deepdive/master/labs/migration_v2.py | python3 /dev/stdin -s 1 -o csv -f s3://dynamodblabs/artist.csv,s3://dynamodblabs/album.csv,s3://dynamodblabs/track.csv

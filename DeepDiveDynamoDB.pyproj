@@ -31,6 +31,13 @@
     <Compile Include="02_Table_IO\023_Lab_Table_IO\batchupdate.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="03_Performance\runtothrottle.py" />
+    <Compile Include="04_Web_Version_1\migration_v2.py" />
+    <Compile Include="04_Web_Version_1\webapp-v0\run.py" />
+    <Compile Include="04_Web_Version_1\webapp-v0\webapp\forms.py" />
+    <Compile Include="04_Web_Version_1\webapp-v0\webapp\models.py" />
+    <Compile Include="04_Web_Version_1\webapp-v0\webapp\routes.py" />
+    <Compile Include="04_Web_Version_1\webapp-v0\webapp\__init__.py" />
     <Compile Include="deepdivedynamodb.py" />
   </ItemGroup>
   <ItemGroup>
@@ -40,6 +47,15 @@
     <Folder Include="02_Table_IO\" />
     <Folder Include="02_Table_IO\020_Local_DynamoDb\" />
     <Folder Include="02_Table_IO\023_Lab_Table_IO\" />
+    <Folder Include="03_Performance\" />
+    <Folder Include="04_Web_Version_1\" />
+    <Folder Include="04_Web_Version_1\webapp-v0\" />
+    <Folder Include="04_Web_Version_1\webapp-v0\webapp\" />
+    <Folder Include="04_Web_Version_1\webapp-v0\webapp\static\" />
+    <Folder Include="04_Web_Version_1\webapp-v0\webapp\static\css\" />
+    <Folder Include="04_Web_Version_1\webapp-v0\webapp\static\img\" />
+    <Folder Include="04_Web_Version_1\webapp-v0\webapp\static\js\" />
+    <Folder Include="04_Web_Version_1\webapp-v0\webapp\templates\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitattributes" />
@@ -54,6 +70,36 @@
     <Content Include="02_Table_IO\023_Lab_Table_IO\BatchOperationnsWithDynamoDB.terminal" />
     <Content Include="02_Table_IO\023_Lab_Table_IO\update.json" />
     <Content Include="02_Table_IO\023_Lab_Table_IO\write.json" />
+    <Content Include="04_Web_Version_1\DataMigration.terminal" />
+    <Content Include="04_Web_Version_1\webapp-v0\.editorconfig" />
+    <Content Include="04_Web_Version_1\webapp-v0\.gitignore" />
+    <Content Include="04_Web_Version_1\webapp-v0\model.sql" />
+    <Content Include="04_Web_Version_1\webapp-v0\Pipfile" />
+    <Content Include="04_Web_Version_1\webapp-v0\Pipfile.lock" />
+    <Content Include="04_Web_Version_1\webapp-v0\README.md" />
+    <Content Include="04_Web_Version_1\webapp-v0\requirements.txt" />
+    <Content Include="04_Web_Version_1\webapp-v0\run.sh" />
+    <Content Include="04_Web_Version_1\webapp-v0\schema.sql" />
+    <Content Include="04_Web_Version_1\webapp-v0\webapp\static\css\main.css" />
+    <Content Include="04_Web_Version_1\webapp-v0\webapp\static\img\favicon.ico" />
+    <Content Include="04_Web_Version_1\webapp-v0\webapp\static\img\logo-inverse.svg" />
+    <Content Include="04_Web_Version_1\webapp-v0\webapp\static\img\logo.svg" />
+    <Content Include="04_Web_Version_1\webapp-v0\webapp\static\img\no-albumart.svg" />
+    <Content Include="04_Web_Version_1\webapp-v0\webapp\static\img\store.jpg" />
+    <Content Include="04_Web_Version_1\webapp-v0\webapp\static\js\main.js" />
+    <Content Include="04_Web_Version_1\webapp-v0\webapp\templates\about.html" />
+    <Content Include="04_Web_Version_1\webapp-v0\webapp\templates\account.html" />
+    <Content Include="04_Web_Version_1\webapp-v0\webapp\templates\album.html" />
+    <Content Include="04_Web_Version_1\webapp-v0\webapp\templates\artist.html" />
+    <Content Include="04_Web_Version_1\webapp-v0\webapp\templates\footer.html" />
+    <Content Include="04_Web_Version_1\webapp-v0\webapp\templates\home.html" />
+    <Content Include="04_Web_Version_1\webapp-v0\webapp\templates\layout.html" />
+    <Content Include="04_Web_Version_1\webapp-v0\webapp\templates\login.html" />
+    <Content Include="04_Web_Version_1\webapp-v0\webapp\templates\nav.html" />
+    <Content Include="04_Web_Version_1\webapp-v0\webapp\templates\register.html" />
+    <Content Include="04_Web_Version_1\webapp-v0\webapp\templates\results.html" />
+    <Content Include="04_Web_Version_1\webapp-v0\webapp\templates\search.html" />
+    <Content Include="04_Web_Version_1\webapp-v0\webapp\templates\track.html" />
     <Content Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
