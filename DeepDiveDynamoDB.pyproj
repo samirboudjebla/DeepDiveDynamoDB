@@ -54,8 +54,21 @@
     <Compile Include="08_Streams\081_Streams_Lambda_SES\create_table.py" />
     <Compile Include="08_Streams\081_Streams_Lambda_SES\lambda_function.py" />
     <Compile Include="08_Streams\081_Streams_Lambda_SES\order.py" />
+    <Compile Include="08_Streams\084_Streams_Agregation\clear_votes.py" />
+    <Compile Include="08_Streams\084_Streams_Agregation\lambda_function.py" />
     <Compile Include="08_Streams\082_Streams_Lab\metricprocessor.py" />
     <Compile Include="08_Streams\082_Streams_Lab\randomgame.py" />
+    <Compile Include="09_HA\091_Sharding\create_tables.py" />
+    <Compile Include="09_HA\091_Sharding\lambda_function.py" />
+    <Compile Include="09_HA\091_Sharding\votes.py" />
+    <Compile Include="09_HA\092_Streams_Data_Dumps\create_leaderboard.py" />
+    <Compile Include="09_HA\092_Streams_Data_Dumps\lambda_function.py" />
+    <Compile Include="09_HA\092_Streams_Data_Dumps\orders.py" />
+    <Compile Include="09_HA\093_DAX\dax.py" />
+    <Compile Include="09_HA\094_SQS_Writer_Buffer\lambda_function.py" />
+    <Compile Include="09_HA\094_SQS_Writer_Buffer\orders.py" />
+    <Compile Include="09_HA\095_Lab_ElasticCache\getTaStats\editme.py" />
+    <Compile Include="09_HA\095_Lab_ElasticCache\taStreamProcessor\editme.py" />
     <Compile Include="deepdivedynamodb.py" />
   </ItemGroup>
   <ItemGroup>
@@ -88,6 +101,15 @@
     <Folder Include="08_Streams\" />
     <Folder Include="08_Streams\081_Streams_Lambda_SES\" />
     <Folder Include="08_Streams\082_Streams_Lab\" />
+    <Folder Include="08_Streams\084_Streams_Agregation\" />
+    <Folder Include="09_HA\091_Sharding\" />
+    <Folder Include="09_HA\092_Streams_Data_Dumps\" />
+    <Folder Include="09_HA\" />
+    <Folder Include="09_HA\093_DAX\" />
+    <Folder Include="09_HA\094_SQS_Writer_Buffer\" />
+    <Folder Include="09_HA\095_Lab_ElasticCache\" />
+    <Folder Include="09_HA\095_Lab_ElasticCache\getTaStats\" />
+    <Folder Include="09_HA\095_Lab_ElasticCache\taStreamProcessor\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitattributes" />
@@ -141,6 +163,19 @@
     <Content Include="06_Backups\PetInventory.csv" />
     <Content Include="07_Data_Consistency\074_Lab_Migration_Data\rules.json" />
     <Content Include="08_Streams\081_Streams_Lambda_SES\README.md" />
+    <Content Include="08_Streams\084_Streams_Agregation\README.md" />
+    <Content Include="09_HA\091_Sharding\README.md" />
+    <Content Include="09_HA\092_Streams_Data_Dumps\bucket_policy.json" />
+    <Content Include="09_HA\092_Streams_Data_Dumps\Pipfile" />
+    <Content Include="09_HA\092_Streams_Data_Dumps\Pipfile.lock" />
+    <Content Include="09_HA\092_Streams_Data_Dumps\README.md" />
+    <Content Include="09_HA\093_DAX\Pipfile" />
+    <Content Include="09_HA\093_DAX\Pipfile.lock" />
+    <Content Include="09_HA\093_DAX\README.md" />
+    <Content Include="09_HA\094_SQS_Writer_Buffer\lambda_execution_role.json" />
+    <Content Include="09_HA\094_SQS_Writer_Buffer\Pipfile" />
+    <Content Include="09_HA\094_SQS_Writer_Buffer\Pipfile.lock" />
+    <Content Include="09_HA\094_SQS_Writer_Buffer\README.md" />
     <Content Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
