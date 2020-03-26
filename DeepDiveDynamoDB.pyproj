@@ -69,6 +69,7 @@
     <Compile Include="09_HA\094_SQS_Writer_Buffer\orders.py" />
     <Compile Include="09_HA\095_Lab_ElasticCache\getTaStats\editme.py" />
     <Compile Include="09_HA\095_Lab_ElasticCache\taStreamProcessor\editme.py" />
+    <Compile Include="10_Security\101_Fine_Graine_Access\assume_role.py" />
     <Compile Include="deepdivedynamodb.py" />
   </ItemGroup>
   <ItemGroup>
@@ -110,6 +111,9 @@
     <Folder Include="09_HA\095_Lab_ElasticCache\" />
     <Folder Include="09_HA\095_Lab_ElasticCache\getTaStats\" />
     <Folder Include="09_HA\095_Lab_ElasticCache\taStreamProcessor\" />
+    <Folder Include="10_Security\" />
+    <Folder Include="10_Security\101_Fine_Graine_Access\" />
+    <Folder Include="10_Security\102_Fine_Graine_Access_Lab\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitattributes" />
@@ -176,6 +180,11 @@
     <Content Include="09_HA\094_SQS_Writer_Buffer\Pipfile" />
     <Content Include="09_HA\094_SQS_Writer_Buffer\Pipfile.lock" />
     <Content Include="09_HA\094_SQS_Writer_Buffer\README.md" />
+    <Content Include="10_Security\101_Fine_Graine_Access\access-specific-attributes.json" />
+    <Content Include="10_Security\101_Fine_Graine_Access\access-specific-table.json" />
+    <Content Include="10_Security\101_Fine_Graine_Access\README.md" />
+    <Content Include="10_Security\102_Fine_Graine_Access_Lab\FGACAdminPolicy.json" />
+    <Content Include="10_Security\102_Fine_Graine_Access_Lab\FGACUserPolicy.json" />
     <Content Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
